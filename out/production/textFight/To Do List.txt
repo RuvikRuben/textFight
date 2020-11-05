@@ -1,0 +1,28 @@
+Lista rzeczy do zrobienia :
+
+Rzeczy najważniejsze:
+Główne menu;
+Klasy bohaterów;
+System walki;
+Przeciwnicy;
+Rodzaje broni;
+Czyszczenie ekranu;
+
+
+Rzeczy ważne:
+Interfejs graficzny;
+Ekwipunek;
+Magia;
+Fabuła;
+
+Rzeczy jak wystarczy czasu:
+Dzwięki/Muzyka;
+Podróżowanie do Dungeonów;
+Zdarzenia;
+System zapisu/wczytania;
+
+
+
+
+
+
