@@ -1,3 +1,4 @@
+package src;
 
 import java.util.Random;
 import java.util.Scanner;
@@ -6,6 +7,7 @@ import java.util.Scanner;
 
 public class Game {
 
+    //testowy komentarz 
     Scanner myScanner = new Scanner(System.in);
     Scanner enterScanner = new Scanner(System.in);
     Random rand = new Random();
@@ -56,7 +58,6 @@ public class Game {
 
                     }
                     System.out.println("╚═════════════════════════════════╝");
-                    int wyb = myScanner.nextInt();
 
                     int wyb;
                     do {
