@@ -68,7 +68,7 @@ public class Game {
                             myScanner.next(); // this is important!
                         }
                         wyb = myScanner.nextInt();
-                    } while (wyb <= 0);
+                    } while (wyb < 0);
                     if (wyb >= 0 && wyb <= adventures.length) {
                         if (adventures[wyb] != "Postać została już wybrana")
                         {
