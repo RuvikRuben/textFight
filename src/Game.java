@@ -58,7 +58,6 @@ public class Game {
 
                     }
                     System.out.println("╚═════════════════════════════════╝");
-
                     int wyb;
                     do {
                         while (!myScanner.hasNextInt()) {
