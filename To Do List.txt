@@ -2,7 +2,6 @@ Lista rzeczy do zrobienia :
 
 Rzeczy najważniejsze:
 Główne menu;
-Fabuła;
 Klasy bohaterów;
 System walki;
 Przeciwnicy;
@@ -14,6 +13,7 @@ Rzeczy ważne:
 Interfejs graficzny;
 Ekwipunek;
 Magia;
+Fabuła;
 
 Rzeczy jak wystarczy czasu:
 Dzwięki/Muzyka;
