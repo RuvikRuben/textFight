@@ -9,3 +9,8 @@ Przeciwnicy;
 Rodzaje broni;
 Magia;
 Fabuła;
+Czyszczenie ekranu;
+Podróżowanie do Dungeonów;
+Zdarzenia;
+System zapisu/wczytania;
+Ekwipunek;
