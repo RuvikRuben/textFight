@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 
 public class Game {
-
+    //123
     //testowy komentarz 
     Scanner myScanner = new Scanner(System.in);
     Scanner enterScanner = new Scanner(System.in);
