@@ -58,12 +58,13 @@ public class Game {
                     System.out.println("╚═════════════════════════════════╝");
                     int wyb = myScanner.nextInt();
 
-
-                    if (wyb >= 0 && wyb <= adventures.length) {
-                        if (adventures[wyb] != "Postać została już wybrana")
+                    char wyb = myScanner.next().charAt(0);;
+                    int wyb2 = wyb-48;
+                    if (wyb2 >= 0 && wyb2 <= adventures.length) {
+                        if (adventures[wyb2] != "Postać została już wybrana")
                         {
-                            team[number] = adventures[wyb];
-                            adventures[wyb] = "Postać została już wybrana";
+                            team[number] = adventures[wyb2];
+                            adventures[wyb2] = "Postać została już wybrana";
                             number++;
                         }
                         else
@@ -113,7 +114,7 @@ public class Game {
                 default -> {
                 System.out.println("╔════════════════════════════════════════╗");
                 System.out.println("║ Nie ma takiej opcji! Spróbuj ponownie. ║");
-                System.out.println("╚════════════════════════════════════════╝"); System.out.println("Nope");
+                System.out.println("╚════════════════════════════════════════╝");
             }}
 
 
