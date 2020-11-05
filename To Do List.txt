@@ -1,0 +1,14 @@
+Lista rzeczy do zrobienia :
+
+Dzwięki/Muzyka;
+Główne menu;
+Interfejs graficzny;
+Klasy bohaterów;
+System walki;
+Przeciwnicy;
+Rodzaje broni;
+Magia;
+
+
+
+
