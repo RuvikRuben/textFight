@@ -8,3 +8,4 @@ System walki;
 Przeciwnicy;
 Rodzaje broni;
 Magia;
+Fabuła;
