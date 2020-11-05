@@ -7,7 +7,7 @@ System walki;
 Przeciwnicy;
 Rodzaje broni;
 Czyszczenie ekranu;
-
+Podpięcie bohaterów do karczmy;
 
 Rzeczy ważne:
 Interfejs graficzny;
