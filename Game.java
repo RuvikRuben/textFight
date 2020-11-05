@@ -65,6 +65,12 @@ public class Game {
                             adventures[wyb] = "Postać została już wybrana";
                             number++;
                         }
+                        else
+                        {
+                            System.out.println("╔════════════════════════════════════════╗");
+                            System.out.println("║       Postać została już wybrana.      ║");
+                            System.out.println("╚════════════════════════════════════════╝");
+                        }
 
                         if (number == 6) dosc = true;
 
