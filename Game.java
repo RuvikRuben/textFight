@@ -10,6 +10,7 @@ public class Game {
     Scanner enterScanner = new Scanner(System.in);
     Random rand = new Random();
     Random num = new Random();
+    Scanner sc = new Scanner(System.in);
 
 
     public static void main(String[] args) {
@@ -41,11 +42,11 @@ public class Game {
             System.out.println("║ C • Zakończ i wyrusz w drogę  ║");
             System.out.println("╚═══════════════════════════════╝");
 
-            //System.out.println("Liczba osób w dużynie: " + number + "\nA - dodaj członka z karczmy" + "\nB - wyświetl aktualną drużynę\nC - zakończ i wyrusz w drogę");
-            String choice = (myScanner.next()).toLowerCase();
+            char choice = sc.next().charAt(0);
+            char choice2 = Character.toLowerCase(choice);
 
-            switch (choice) {
-                case ("a") -> {
+            switch (choice2) {
+                case ('a') -> {
                     System.out.println("╔═════════════════════════════════╗");
                     System.out.println("║ Osoby znajdujące się w tawernie ║");
                     for (int i = 0; i < adventures.length; i++) {
@@ -81,7 +82,7 @@ public class Game {
                         System.out.println("╚════════════════════════════════════════╝");
                     }
                 }
-                case ("b") -> {
+                case ('b') -> {
                     if (number == 0) System.out.println("Musisz mieć przynajmiej jednego członka w drużynie");
                     else {
                         System.out.println("╔══════════════════╗");
@@ -94,7 +95,7 @@ public class Game {
                         System.out.println("╚══════════════════╝");
                     }
                 }
-                case ("c") -> {
+                case ('c') -> {
                     if (number == 0) System.out.println("Musisz mieć przynajmiej jednego członka w drużynie");
                     else {
                         dosc = true;
