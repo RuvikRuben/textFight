@@ -58,13 +58,21 @@ public class Game {
                     System.out.println("╚═════════════════════════════════╝");
                     int wyb = myScanner.nextInt();
 
-                    char wyb = myScanner.next().charAt(0);;
-                    int wyb2 = wyb-48;
-                    if (wyb2 >= 0 && wyb2 <= adventures.length) {
-                        if (adventures[wyb2] != "Postać została już wybrana")
+                    int wyb;
+                    do {
+                        while (!myScanner.hasNextInt()) {
+                            System.out.println("╔══════════════╗");
+                            System.out.println("║ To nie numer ║");
+                            System.out.println("╚══════════════╝");
+                            myScanner.next(); // this is important!
+                        }
+                        wyb = myScanner.nextInt();
+                    } while (wyb <= 0);
+                    if (wyb >= 0 && wyb <= adventures.length) {
+                        if (adventures[wyb] != "Postać została już wybrana")
                         {
-                            team[number] = adventures[wyb2];
-                            adventures[wyb2] = "Postać została już wybrana";
+                            team[number] = adventures[wyb];
+                            adventures[wyb] = "Postać została już wybrana";
                             number++;
                         }
                         else
