@@ -59,7 +59,7 @@ public class Game {
 
 
                     if (wyb >= 0 && wyb <= adventures.length) {
-                        if (adventures[wyb] != "")
+                        if (adventures[wyb] != "Postać została już wybrana")
                         {
                             team[number] = adventures[wyb];
                             adventures[wyb] = "Postać została już wybrana";
